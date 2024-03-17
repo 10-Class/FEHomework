@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background-image: url(./back.gif);
+    background-color: #22222c;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    background-color: #22222c;
+    padding: 10px;
+}
+#headerback {
+    color: #c7c4c4;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    padding: 5px;
+    border: #e73236 1px solid;
+    border-radius: 8px;
+    width: 550px;
+}
+
+#wiki {
+    padding: 18px;
+    padding-left: 10px;
+    padding-right: 50px;
+    color: #c7c4c4;
+    font-size: 20px;
+}
+
+#MunichPhoto {
+    padding-left: 500px;
+    height: 400px;
+}
+
+table, 
+td, 
+th {
+    border: 2px solid #e73236;
+    border-collapse: collapse;
+    color: #c7c4c4;
+}
+
+#table1 {
+    margin: 20px 40px 0px 300px;
+    width: 650px;
+    text-align: center;
+    padding: 30px;
+}
+
+#table1 tr:nth-child(1) {
+    font-size: 25px;
+}
